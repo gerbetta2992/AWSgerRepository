@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "start": "npm run develop",
     "build": "gatsby build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
